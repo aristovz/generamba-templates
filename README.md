@@ -1,8 +1,10 @@
 # generamba-templates
 
-This repository contains a list of [Generamba](https://github.com/rambler-digital-solutions/Generamba) templates.
+Для добавления новых модулей в проект используется кодогенератор Generamba. Подробнее об установке можно почитать тут https://github.com/strongself/Generamba
 
-The detailed information about a template structure is available in [Generamba Wiki](https://github.com/rambler-digital-solutions/Generamba/wiki/Template-Structure).
+Шаблоны находятся в корневой папке проекта Templates, архитектура MVP.
+
+Для создания нового модуля нужно сначала установить генерамбу, а затем в терменале из корневой папки проекта выполнить команду **generamba gen ModuleName surf_mvp_module**
 
 ## Requirements
 
@@ -10,11 +12,7 @@ The detailed information about a template structure is available in [Generamba W
 
 ## List of templates
 
-* [Surf MVP module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_module) - generates a new module of **Surf MVP** architecture
-
-* [Surf MVP Coordinatable module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_coordinatable_module) - generates a new module of architecture **Surf MVP** with routing using Coordinators.
-
-* [Surf MVP Coordinatable Alert module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_coordinatable_alert) - generates a new alert module of architecture **Surf MVP** with routing using Coordinators.
+* [GF VIPER module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_module) - generates a new module of **Surf MVP** architecture
 
 ## Installation
 
@@ -23,7 +21,7 @@ To install a template just put these strings in your `Rambafile` and run `genera
 ```
 ### Catalogs
 catalogs:
-- 'https://github.com/surfstudio/generamba-templates'
+- 'https://github.com/aristovz/generamba-templates'
 
 ### Templates
 templates:
