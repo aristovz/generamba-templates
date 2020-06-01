@@ -1,0 +1,34 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+enum {{ module_info.name }}Configurator {
+
+    // MARK: - Internal methods
+
+    static func configure() -> UIViewController {
+        let view = {{ module_info.name }}ViewController.xibViewController()
+        let presenter = {{ module_info.name }}Presenter()
+        let interactor = {{ module_info.name }}Interactor()
+        let router = {{ module_info.name }}Router()
+
+        view.presenter = presenter
+        presenter.view = view
+        
+        interactor.presenter = presenter
+        presenter.interactor = interactor
+        
+        presenter.router = router
+        
+        router.view = view
+
+        return view
+    }
+
+}
