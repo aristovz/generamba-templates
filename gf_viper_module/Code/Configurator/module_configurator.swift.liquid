@@ -13,11 +13,7 @@ enum {{ module_info.name }}Configurator {
     // MARK: - Internal methods
 
     static func configure(delegate: {{ module_info.name }}ModuleDelegate? = nil) -> UIViewController {
-        guard let view = UIStoryboard(name: String(describing: {{ module_info.name }}ViewController.self),
-                                      bundle: Bundle.main).instantiateInitialViewController() as? {{ module_info.name }}ViewController else {
-            fatalError("Can't load {{ module_info.name }}ViewController from storyboard, check that controller is initial view controller")
-        }
-
+        let view = {{ module_info.name }}ViewController.storyboardViewController()
         let presenter = {{ module_info.name }}Presenter()
         let interactor = {{ module_info.name }}Interactor()
         let router = {{ module_info.name }}Router()
