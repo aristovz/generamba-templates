@@ -14,6 +14,8 @@ final class {{ module_info.name }}Presenter: {{ module_info.name }}PresenterInpu
     var interactor: {{ module_info.name }}InteractorInput!
     var router: {{ module_info.name }}RouterInput!
 
+    weak var delegate: {{ module_info.name }}ModuleDelegate?
+
     // MARK: - {{ module_info.name }}PresenterInput
 
 }

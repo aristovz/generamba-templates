@@ -8,6 +8,7 @@ license: "MIT"
 # The declarations for code files
 
 code_files:
+
 # Configurator
 - {name: Configurator/Configurator.swift, path: Code/Configurator/module_configurator.swift.liquid}
 
@@ -15,20 +16,23 @@ code_files:
 - {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
 - {name: Router/RouterInput.swift, path: Code/Router/router_input.swift.liquid}
 
-# Interactor layer
-- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
-- {name: Interactor/InteractorInput.swift, path: Code/Interactor/interactor_input.swift.liquid}
-- {name: Interactor/InteractorOutput.swift, path: Code/Interactor/interactor_output.swift.liquid}
-
-# Presenter layer
-- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
-- {name: Presenter/PresenterInput.swift, path: Code/Presenter/presenter_input.swift.liquid}
-
 # View layer
 - {name: View/ViewController.swift, path: Code/View/view_controller.swift.liquid}
 - {name: View/ViewController.storyboard, path: Code/View/view_controller.storyboard.liquid}
 - {name: View/ViewInput.swift, path: Code/View/view_input.swift.liquid}
 - {name: View/ViewOutput.swift, path: Code/View/view_output.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+- {name: Presenter/PresenterInput.swift, path: Code/Presenter/presenter_input.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+- {name: Interactor/InteractorInput.swift, path: Code/Interactor/interactor_input.swift.liquid}
+- {name: Interactor/InteractorOutput.swift, path: Code/Interactor/interactor_output.swift.liquid}
+
+# Delegate
+- {name: Delegate/ModuleDelegate.swift, path: Code/Delegate/module_delegate.swift.liquid}
 
 # The declarations for test files
 
