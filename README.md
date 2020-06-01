@@ -12,7 +12,7 @@
 
 ## List of templates
 
-* [GF VIPER module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_module) - generates a new module of **Grow Food VIPER** architecture
+* [GF VIPER module](https://github.com/aristovz/generamba-templates/tree/master/grow_food_viper_module) - generates a new module of **Grow Food VIPER** architecture
 
 ## Installation
 
