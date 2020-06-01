@@ -2,9 +2,9 @@
 
 Для добавления новых модулей в проект используется кодогенератор Generamba. Подробнее об установке можно почитать тут https://github.com/strongself/Generamba
 
-Шаблоны находятся в корневой папке проекта Templates, архитектура MVP.
+Шаблоны находятся в корневой папке проекта Templates, архитектура VIPER.
 
-Для создания нового модуля нужно сначала установить генерамбу, а затем в терменале из корневой папки проекта выполнить команду **generamba gen ModuleName surf_mvp_module**
+Для создания нового модуля нужно сначала установить генерамбу, а затем в терменале из корневой папки проекта выполнить команду **generamba gen [ModuleName] [Template_Name]**
 
 ## Requirements
 
@@ -12,7 +12,7 @@
 
 ## List of templates
 
-* [GF VIPER module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_module) - generates a new module of **Surf MVP** architecture
+* [GF VIPER module](https://github.com/surfstudio/generamba-templates/tree/master/surf_mvp_module) - generates a new module of **Grow Food VIPER** architecture
 
 ## Installation
 
